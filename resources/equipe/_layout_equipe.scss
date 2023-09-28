@@ -1,0 +1,40 @@
+.team-section{
+    background: $primary-normal;
+    color: $white-normal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 14px;
+}
+
+.team-contentt h2{
+    text-transform: uppercase;
+    text-align: end;
+    font-size: 38px;
+}
+
+.cards{
+    line-height: 150%;
+    margin-bottom: 14px;
+    background: $primary-normal!important;
+    padding: 100px;
+    
+    p{
+        margin-bottom: 7px;
+        text-align: start;
+    }
+} 
+
+.team-title{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.card{
+    background: $primary-normal!important;
+    color: $white-normal;
+
+    img{
+        border-radius: 50%;
+    }
+}
