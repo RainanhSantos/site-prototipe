@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 768px) {
+    .cards{
+        flex-direction: column;
+    }
+    .card-title{
+        text-align: center;
+        font-size: 14px;
+    }
+    .funcao{
+        text-align: center;
+        font-size: 12px;
+    }
+    .team-section{
+        padding: 20px 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero{
+        min-height: 60vh;
+
+        h1{
+            font-size: 20px;
+            padding: 0 10px;
+            width: 100%;
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about-content{
+        flex-direction: column;
+
+        img{
+            min-width: 400px;
+        }
+    }
+
+    .about-description{
+        h2{
+            font-size: 30px;
+            margin-bottom: 4px;
+        }
+    
+        p{
+            margin-bottom: 20px;
+            line-height: 150%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .haircuts{
+        flex-direction: column;
+    }
+
+    .haircuts{
+        max-width: 740px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-whatsapp{
+        img{
+            max-width: 64px;
+        }
+    }
+}
+
+/////
+
+@media screen and (max-width: 768px) {
+    .header-content{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        i{
+            margin-top: 16px;
+            font-size: 34px;
+        }
+    }
+
+
+    .header-logo img{
+        width: 160px;
+        margin-top: 46px;
+    }
+
+    .header-button{
+        display: none;
+    }
+}

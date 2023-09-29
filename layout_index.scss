@@ -5,10 +5,10 @@
     outline: 0;
 }
 
-@import "resources/assets/styles/header/header";
-@import "resources/assets/styles/theme/theme";
-@import "resources/assets/layout/layout";
-@import "resources/equipe/layout_equipe";
+@import "resources/assets/layout/body/layoutBody";
+@import "resources/assets/layout/header/layoutHeader";
+@import "resources/assets/layout/theme/theme";
+@import "resources/assets/layout/mobile/layoutMobile";
 
 body{
     font-family: "Sora", sans-serif;
